@@ -146,10 +146,10 @@ For better accuracy, set `--use_bert` to swap LSTM for BERT encoder.
 - The Streamlit app works with a trained checkpoint OR in demo mode with a pretrained CLIP model
 
 ## My Contributions
--Fine-tuned the multimodal VQA model on VQA v2 dataset for improved answer accuracy and generalization
--Implemented text encoding using BERT, replacing LSTM with contextual embeddings (--use_bert)
--Designed and optimized image-text fusion pipeline (feature projection + concatenation + MLP)
--Improved training pipeline with hyperparameter tuning (LR, batch size, epochs) and efficient batching
--Built modular pipeline (dataset, tokenizer, encoders, inference) for scalability and experimentation
--Developed end-to-end system including CLI inference and Streamlit-based web UI
--Integrated pretrained vision backbone (ResNet-50) and applied transfer learning for feature extraction
+- Fine-tuned the multimodal VQA model on VQA v2 dataset for improved answer accuracy and generalization
+- Implemented text encoding using BERT, replacing LSTM with contextual embeddings (--use_bert)
+- Designed and optimized image-text fusion pipeline (feature projection + concatenation + MLP)
+- Improved training pipeline with hyperparameter tuning (LR, batch size, epochs) and efficient batching
+- Built modular pipeline (dataset, tokenizer, encoders, inference) for scalability and experimentation
+- Developed end-to-end system including CLI inference and Streamlit-based web UI
+- Integrated pretrained vision backbone (ResNet-50) and applied transfer learning for feature extraction
